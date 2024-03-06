@@ -1,0 +1,10 @@
+CREATE DATABASE todo;
+USE todo;
+
+CREATE TABLE Todos (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100),
+    description TEXT
+);
+
+SELECT * FROM Todos;
